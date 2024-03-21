@@ -128,6 +128,17 @@
 		(layer "F.SilkS")
 		(uuid "aef2fd39-9782-4d54-9b2b-127897465990")
 	)
+	(fp_rect
+		(start -4.2 -3.6)
+		(end 3 0.39)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "d5b8fb56-61e0-46a4-98e9-8424ada0a30c")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
@@ -172,7 +183,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "b3747718-7d58-47de-a0e5-50ef433cf1c1")
 	)
-	(model "C:/Users/brand/Desktop/VEML7700.stp"
+	(model "C:/Users/brand/OneDrive/Documents/KiCad/8.0/3dmodels/VEML7700.stp"
 		(offset
 			(xyz -0.625 1.8 0.275)
 		)
