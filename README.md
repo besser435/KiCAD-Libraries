@@ -6,4 +6,4 @@
  Just Copy and past any new footprints and models I make from the path below
  to this Git directory.
  
- C:\Users\(user)\OneDrive\Documents\KiCad\8.0\footprints
+ `C:\Users\brand\OneDrive\Documents\KiCad\8.0\`
