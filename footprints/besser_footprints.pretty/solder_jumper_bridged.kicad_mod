@@ -68,8 +68,8 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -0.68 -0.15)
-		(end 0.68 0.05)
+		(start -0.23 -0.2)
+		(end 0.23 0.1)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -79,19 +79,19 @@
 		(uuid "62165e96-bd93-4d91-b5b2-0c1982297f26")
 	)
 	(fp_rect
-		(start -1.45 -1.1)
-		(end 1.45 1)
+		(start -1.5 -1.15)
+		(end 1.5 1.05)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill none)
 		(layer "F.SilkS")
-		(uuid "bdfb35a8-c12a-4399-baec-da3d59fc1ed2")
+		(uuid "accde9bd-59ad-4639-93aa-dfc2b46ed777")
 	)
 	(fp_rect
-		(start -0.75 -0.9)
-		(end 0.9 0.8)
+		(start -0.15 -0.65)
+		(end 0.15 0.55)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -99,6 +99,17 @@
 		(fill solid)
 		(layer "F.Mask")
 		(uuid "7cb15dfb-d9ed-4ffd-a1a6-9baee4298854")
+	)
+	(fp_rect
+		(start -1.4 -1.05)
+		(end 1.4 0.95)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "bdfb35a8-c12a-4399-baec-da3d59fc1ed2")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
