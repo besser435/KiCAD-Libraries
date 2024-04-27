@@ -676,15 +676,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 8.89 10.668 0)
+			(at -7.112 9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 3.81 1.27 0)
+		(property "Value" "MAX1704x"
+			(at 3.556 9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -692,7 +692,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:TDFN-8-1EP_2x2mm_P0.5mm_EP0.8x1.2mm"
-			(at 3.81 1.27 0)
+			(at 2.54 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -701,7 +701,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 3.81 1.27 0)
+			(at 5.08 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -709,8 +709,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Battery management IC"
-			(at 3.81 1.27 0)
+		(property "Description" "Battery Fuel Gauge IC"
+			(at 2.54 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -729,8 +729,8 @@
 		)
 		(symbol "MAX1704x_0_1"
 			(rectangle
-				(start -8.89 8.89)
-				(end 8.89 -8.89)
+				(start -7.62 8.89)
+				(end 7.62 -8.89)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -742,7 +742,7 @@
 		)
 		(symbol "MAX1704x_1_1"
 			(pin power_in line
-				(at 1.27 -11.43 90)
+				(at 2.54 -11.43 90)
 				(length 2.54) hide
 				(name "CTG"
 					(effects
@@ -760,7 +760,7 @@
 				)
 			)
 			(pin power_in line
-				(at 11.43 6.35 180)
+				(at 10.16 6.35 180)
 				(length 2.54)
 				(name "CELL"
 					(effects
@@ -778,7 +778,7 @@
 				)
 			)
 			(pin power_in line
-				(at 11.43 3.81 180)
+				(at 10.16 3.81 180)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -796,7 +796,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 -11.43 90)
+				(at 2.54 -11.43 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -814,7 +814,7 @@
 				)
 			)
 			(pin output line
-				(at -11.43 1.27 0)
+				(at -10.16 1.27 0)
 				(length 2.54)
 				(name "~{ALRT}"
 					(effects
@@ -832,7 +832,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -6.35 0)
+				(at -10.16 -6.35 0)
 				(length 2.54)
 				(name "QSTRT"
 					(effects
@@ -850,7 +850,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 3.81 0)
+				(at -10.16 3.81 0)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -868,7 +868,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 6.35 0)
+				(at -10.16 6.35 0)
 				(length 2.54)
 				(name "SDA"
 					(effects
