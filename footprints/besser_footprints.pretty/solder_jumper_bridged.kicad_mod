@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "solder_jumper_bridged"
-		(at -0.75 0.95 0)
+		(at -0.75 1.4 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "77424468-fffc-4381-935a-24ec48457bb1")
@@ -68,32 +68,105 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -0.38 -0.3)
-		(end 0.23 0.2)
+		(start -0.35 -0.3)
+		(end 0.2 0.2)
 		(stroke
-			(width 0.1)
+			(width 0)
 			(type solid)
 		)
 		(fill solid)
 		(layer "F.Cu")
 		(uuid "62165e96-bd93-4d91-b5b2-0c1982297f26")
 	)
-	(fp_rect
-		(start -1.65 -1.15)
-		(end 1.5 1.05)
+	(fp_line
+		(start -1.697868 0.695738)
+		(end -1.697868 -0.79)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
 		(layer "F.SilkS")
-		(uuid "accde9bd-59ad-4639-93aa-dfc2b46ed777")
+		(uuid "3e4755e2-2811-4c46-bc85-beff2b139f20")
 	)
-	(fp_rect
-		(start -0.3 -0.65)
-		(end 0.15 0.55)
+	(fp_line
+		(start -1.291803 -1.196065)
+		(end 1.143935 -1.196065)
 		(stroke
 			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e882e4c6-c167-4b0f-863d-b1d7f3fcadb9")
+	)
+	(fp_line
+		(start 1.143935 1.101803)
+		(end -1.291803 1.101803)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8985adb9-d2a4-4c90-9594-aa234bc6d624")
+	)
+	(fp_line
+		(start 1.55 -0.79)
+		(end 1.55 0.695738)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "09564a6d-1068-4f90-b3f2-c88047d3e9ed")
+	)
+	(fp_arc
+		(start -1.697868 -0.79)
+		(mid -1.578934 -1.077131)
+		(end -1.291803 -1.196065)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bf7cb430-84c5-48fe-8bbe-5507e0f92ea7")
+	)
+	(fp_arc
+		(start -1.291803 1.101803)
+		(mid -1.578934 0.982869)
+		(end -1.697868 0.695738)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0ce79df1-d9ce-4255-af83-3240c5693180")
+	)
+	(fp_arc
+		(start 1.143935 -1.196065)
+		(mid 1.431066 -1.077131)
+		(end 1.55 -0.79)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4c712191-2455-4ce5-9c8c-c4d67e30adf2")
+	)
+	(fp_arc
+		(start 1.55 0.695738)
+		(mid 1.431066 0.982869)
+		(end 1.143935 1.101803)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "14d98298-474d-4889-9b62-22fe86f6c99e")
+	)
+	(fp_rect
+		(start -0.35 -0.65)
+		(end 0.2 0.55)
+		(stroke
+			(width 0)
 			(type solid)
 		)
 		(fill solid)
@@ -101,8 +174,8 @@
 		(uuid "7cb15dfb-d9ed-4ffd-a1a6-9baee4298854")
 	)
 	(fp_rect
-		(start -1.55 -1.05)
-		(end 1.4 0.95)
+		(start -1.65 -1.15)
+		(end 1.5 1.05)
 		(stroke
 			(width 0.06)
 			(type solid)
