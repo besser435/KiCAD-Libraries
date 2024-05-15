@@ -156,7 +156,6 @@
 		(size 0.7 1.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(thermal_bridge_angle 45)
 		(uuid "6017919c-935d-4400-b14e-055bea3a6d08")
 	)
 	(pad "2" smd roundrect
@@ -164,7 +163,6 @@
 		(size 0.7 1.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(thermal_bridge_angle 45)
 		(uuid "886a3d39-afe2-41be-a4fe-a9de79411ecd")
 	)
 	(pad "3" smd roundrect
@@ -172,7 +170,6 @@
 		(size 0.7 1.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(thermal_bridge_angle 45)
 		(uuid "db962849-e102-4ba8-8fd3-bd52a7aebe2c")
 	)
 	(pad "4" smd roundrect
@@ -180,7 +177,6 @@
 		(size 0.7 1.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(thermal_bridge_angle 45)
 		(uuid "b3747718-7d58-47de-a0e5-50ef433cf1c1")
 	)
 	(model "C:/Users/brand/OneDrive/Documents/KiCad/8.0/3dmodels/VEML7700.stp"

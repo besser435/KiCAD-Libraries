@@ -201,7 +201,6 @@
 		(size 1.8 1.1)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.25)
-		(thermal_bridge_angle 45)
 		(uuid "24801c4e-6697-455c-8eed-7df49fa5bfbe")
 	)
 	(pad "2" smd roundrect
@@ -209,7 +208,6 @@
 		(size 1.8 1.1)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.25)
-		(thermal_bridge_angle 45)
 		(uuid "08977b64-837a-464f-8db7-e6374d6c2ecd")
 	)
 )

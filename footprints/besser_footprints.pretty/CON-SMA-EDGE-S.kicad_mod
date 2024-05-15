@@ -1,0 +1,347 @@
+(footprint "CON-SMA-EDGE-S"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 5.78 1.6525 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "73bfa847-e673-458b-89f5-0046241cc6b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CON-SMA-EDGE-S"
+		(at -0.2 -0.1375 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f5586ee1-76c2-4d75-ace7-0547a17e3ddb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0.02 -0.3075 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8d82ba6-5779-4724-93ae-ba670ae93f60")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.02 -0.3075 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df7b7541-4dbb-456f-a504-744084f63348")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.02 -0.3075 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bfbe2e2f-59af-473e-a4cf-ec8b6a1307a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.597387 1.257727)
+		(end -3.597387 2.0925)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bff553ab-364a-4083-9bde-c46ee795b419")
+	)
+	(fp_line
+		(start -3.597387 2.0925)
+		(end -2.762614 2.0925)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3bae72da-2052-472b-b8c9-1e9b7757fb52")
+	)
+	(fp_line
+		(start 2.77 2.0925)
+		(end 3.604773 2.0925)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "88edda16-1bd3-4e49-9d30-b19d118400bc")
+	)
+	(fp_line
+		(start 3.604773 2.0925)
+		(end 3.604773 1.257727)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "16046ac6-e283-4d68-97de-c8b61cbb2bf1")
+	)
+	(fp_poly
+		(pts
+			(xy 0.64 1.5625) (xy 0.97 1.3225) (xy 0.97 1.8025) (xy 0.64 1.5625)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "00bbfc0c-3165-4db4-892f-75f8b795dd03")
+	)
+	(fp_rect
+		(start -3.5 -11.9875)
+		(end 3.5 2.0125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "8bdf3d97-bc98-4e22-b356-9147778eb60e")
+	)
+	(fp_line
+		(start -4 -3.9375)
+		(end -6 -3.9375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "54e1ab9a-a028-491c-a3ed-dc0bff78a034")
+	)
+	(fp_line
+		(start -4 -2.2)
+		(end -4 -3.9375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d2563c2c-5be3-49a1-9604-febdea9a69f3")
+	)
+	(fp_line
+		(start -3.175 -3.85)
+		(end 3.18 -3.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "c2da8db6-e6eb-4752-8648-f5595d469b81")
+	)
+	(fp_line
+		(start -3.175 -2.3)
+		(end -3.175 -3.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "fc476521-c378-4da6-9f38-bf3b1dac5736")
+	)
+	(fp_line
+		(start -3.175 -2.3)
+		(end 3.18 -2.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "7935138c-affd-4bde-910a-e3f8332f662a")
+	)
+	(fp_line
+		(start -2.7 -11.85)
+		(end 2.7 -11.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "fce10b33-ce8b-4322-9c46-11286f99f87f")
+	)
+	(fp_line
+		(start -2.7 -3.85)
+		(end -2.7 -11.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "0e2d5619-726b-43c0-bd42-99cc30b72a02")
+	)
+	(fp_line
+		(start 2.7 -3.85)
+		(end 2.7 -11.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8a85c7f7-d753-4282-9c76-fc31548c6f25")
+	)
+	(fp_line
+		(start 3.18 -2.3)
+		(end 3.18 -3.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "503d9dcd-5196-4cad-9770-feb8f39aabb2")
+	)
+	(fp_line
+		(start 4 -3.9375)
+		(end 6 -3.9375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "0ee84ce7-df1d-4848-b1e6-c4191f9388b9")
+	)
+	(fp_line
+		(start 4 -2.2)
+		(end -4 -2.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "42311c94-3966-4bd1-bb49-2b9109e45997")
+	)
+	(fp_line
+		(start 4 -2.2)
+		(end 4 -3.9375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "808c9c33-79a3-49f5-947f-c5711dfa3a0b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.2 1.3625 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2304ac4b-3515-4c28-8197-8071c263abec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "PCB EDGE"
+		(at 3.4 -2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4e011bef-c618-40e0-b909-0de049240ad2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 0.76 3.725)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "676945c5-937b-4256-b445-3e4d009a1ec7")
+	)
+	(pad "2" smd rect
+		(at -2.77 0)
+		(size 1.2 3.725)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "321293fd-d7b8-41ed-ab08-cc248a75a4e6")
+	)
+	(pad "2" smd rect
+		(at -2.77 0)
+		(size 1.2 3.725)
+		(layers "B.Cu" "B.Mask")
+		(uuid "43c53d7c-66fb-47c1-9f54-51ce06a31769")
+	)
+	(pad "2" smd rect
+		(at 2.77 0)
+		(size 1.2 3.725)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c3ed9e92-db6b-4314-89f6-62531e9663ae")
+	)
+	(pad "2" smd rect
+		(at 2.77 0)
+		(size 1.2 3.725)
+		(layers "B.Cu" "B.Mask")
+		(uuid "bfdc8043-5a5d-4a6e-91ab-6b4a4146a89d")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "*.Cu")
+		(uuid "1b6468bd-fa74-42b1-9632-df666383cad8")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 0.65 -2.0675) (xy 0.65 2.0925) (xy -0.65 2.0925) (xy -0.65 -2.0675)
+			)
+		)
+	)
+	(model "C:/Users/brand/OneDrive/Documents/KiCad/8.0/3dmodels/CON-SMA-EDGE-S.step"
+		(offset
+			(xyz -0 0.43 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)
