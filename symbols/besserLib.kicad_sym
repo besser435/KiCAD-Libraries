@@ -648,9 +648,9 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -16.51 90)
-				(length 2.54)
+				(length 2.54) hide
 				(name "GND"
 					(effects
 						(font
@@ -666,9 +666,9 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -16.51 90)
-				(length 2.54)
+				(length 2.54) hide
 				(name "GND"
 					(effects
 						(font
@@ -810,9 +810,9 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -16.51 90)
-				(length 2.54)
+				(length 2.54) hide
 				(name "GND"
 					(effects
 						(font
@@ -828,9 +828,9 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -16.51 90)
-				(length 2.54)
+				(length 2.54) hide
 				(name "GND"
 					(effects
 						(font
@@ -864,9 +864,9 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -16.51 90)
-				(length 2.54)
+				(length 2.54) hide
 				(name "GND"
 					(effects
 						(font
@@ -882,27 +882,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -10.16 1.27 0)
-				(length 2.54)
-				(name "TXEN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "23"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -16.51 90)
-				(length 2.54)
+				(length 2.54) hide
 				(name "GND"
 					(effects
 						(font
@@ -918,9 +900,9 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -16.51 90)
-				(length 2.54)
+				(length 2.54) hide
 				(name "GND"
 					(effects
 						(font
@@ -936,9 +918,9 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -16.51 90)
-				(length 2.54)
+				(length 2.54) hide
 				(name "GND"
 					(effects
 						(font
@@ -965,6 +947,24 @@
 					)
 				)
 				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 1.27 0)
+				(length 2.54)
+				(name "TXEN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
