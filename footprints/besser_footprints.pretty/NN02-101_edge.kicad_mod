@@ -27,8 +27,8 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at -0.08475 0 180)
+	(property "Footprint" "NN02-101_edge"
+		(at -0.08475 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -250,7 +250,7 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "F.Cu" "F.SilkS")
+		(layers "*.Cu" "F.SilkS")
 		(uuid "36da3c22-d347-4d8a-9c9a-040bf1164486")
 		(hatch edge 0.2)
 		(connect_pads
@@ -261,7 +261,7 @@
 		(keepout
 			(tracks allowed)
 			(vias not_allowed)
-			(pads not_allowed)
+			(pads allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
 		)

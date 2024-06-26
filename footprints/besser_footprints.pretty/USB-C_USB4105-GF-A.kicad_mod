@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "USB-C_USB4105-GF-A"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -158,8 +158,8 @@
 		(uuid "c3ca0243-be82-4459-b996-a66706771095")
 	)
 	(pad "A1" smd roundrect
-		(at -2.98 -3.305)
-		(size 0.6 1.15)
+		(at -2.98 -3.365)
+		(size 0.6 1.03)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "d9c2ff21-3cc7-4502-a008-4c5a84d9c338")
@@ -207,15 +207,15 @@
 		(uuid "6646ed48-6fe0-4196-8afd-34c3da42f109")
 	)
 	(pad "A12" smd roundrect
-		(at 3.42 -3.305)
-		(size 0.6 1.15)
+		(at 3.42 -3.39)
+		(size 0.6 0.98)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "fa119417-d9b8-42cb-a6e7-198cdec575ed")
 	)
 	(pad "B1" smd roundrect
-		(at 3.42 -3.305)
-		(size 0.6 1.15)
+		(at 3.42 -3.39)
+		(size 0.6 0.98)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "0c648d57-8040-41c7-bd6a-8e914af7e9ea")
@@ -263,8 +263,8 @@
 		(uuid "5f1e9a8f-c275-4120-9b94-27ab0d2a50a8")
 	)
 	(pad "B12" smd roundrect
-		(at -2.98 -3.305)
-		(size 0.6 1.15)
+		(at -2.98 -3.365)
+		(size 0.6 1.03)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "cfcce72c-8f3b-42d7-bdf7-b68ea294abd3")
