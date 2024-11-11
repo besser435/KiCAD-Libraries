@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0.8 -1.7 0)
+		(at 1.4 -1.7 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "7bc624b8-147a-4a6d-a7b6-929a7ab1bf6c")
@@ -67,6 +67,18 @@
 		)
 	)
 	(attr smd)
+	(fp_poly
+		(pts
+			(xy -0.925 -1.1) (xy -1.075 -1.33) (xy -0.775 -1.33) (xy -0.925 -1.1)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "eab56a76-9620-4d3e-a06c-dd93638ee2ff")
+	)
 	(fp_rect
 		(start -1.2 -1.1)
 		(end 1.2 1.1)
@@ -184,7 +196,7 @@
 	)
 	(pad "EP" smd rect
 		(at 0 0)
-		(size 1.12 1.72)
+		(size 1.1 1.72)
 		(property pad_prop_heatsink)
 		(layers "F.Cu" "F.Mask")
 		(zone_connect 2)
